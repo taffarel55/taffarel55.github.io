@@ -1,0 +1,111 @@
+/* Generic Styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*::selection {
+	user-select: text;
+	background: var(--neutral-50);
+	color: var(--neutral-white);
+}
+
+html {
+	font-size: 62.5%;
+	background-color: var(--neutral-90);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	background: var(--neutral-90);
+	color: white;
+	font-family: sans-serif;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+main {
+	width: 100%;
+}
+
+/* Text Styles */
+:where(h2, h3, h4, h5, p) {
+	color: var(--neutral-white);
+}
+
+h6 {
+	color: var(--neutral-50);
+}
+
+h1 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 4.2rem;
+}
+
+h2 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 3.2rem;
+}
+
+h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2.6rem;
+}
+
+h4 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.8rem;
+}
+
+h5 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+h6 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+:where(p, div),
+p a {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.8rem;
+	line-height: 3.2rem;
+}
+
+/* Color Styles */
+:root {
+	--main-primary: #0480dc;
+	--main-hover: #0063ac;
+	--main-pressed: #004b83;
+	--neutral-100: #15191c;
+	--neutral-90: #1d232a;
+	--neutral-80: #2c343a;
+	--neutral-50: #95999c;
+	--neutral-20: #d5d5d5;
+	--neutral-10: #e7e7e7;
+	--neutral-05: #f3f3f3;
+	--neutral-white: #ffffff;
+	--colorful-red: #f83636;
+	--colorful-green: #1ab060;
+	--colorful-yellow: #ffbd2e;
+}
