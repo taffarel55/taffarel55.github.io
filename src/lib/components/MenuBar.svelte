@@ -1,34 +1,37 @@
 <script>
 	export let collapsed;
-	const changeCollapsed = () => {
-		collapsed = !collapsed;
-	};
+	const changeCollapsed = () => (collapsed = !collapsed);
+	
+	import { page } from '$app/stores';
+	let path;
+	$: path = '/' + $page.url.pathname.split('/')[1];
 </script>
 
-<nav class={`MenuBar ${collapsed ? 'collapsed' : ''}`}>
+<nav class="MenuBar" class:collapsed>
 	<div
-		class={`MenuBar__button ${collapsed ? 'rotated' : ''}`}
+		class="MenuBar__button"
+		class:collapsed
 		on:click={changeCollapsed}
 		on:keyup={changeCollapsed}
 	/>
-	<a href="/">
-		<img src="./images/house.svg" alt="Início" />
+	<a href="/" class:active={path === '/'}>
+		<img src="$lib/images/MenuBar/house.svg" alt="Início" />
 		<div>Início</div>
 	</a>
-	<a href="/projects">
-		<img src="./images/folder.svg" alt="Projetos" />
+	<a href="/projects" class:active={path === '/projects'}>
+		<img src="$lib/images/MenuBar/folder.svg" alt="Projetos" />
 		<div>Projetos</div>
 	</a>
-	<a href="/blog"
-		><img src="./images/book.svg" alt="Blog" />
+	<a href="/blog" class:active={path === '/blog'}>
+		<img src="$lib/images/MenuBar/book.svg" alt="Blog" />
 		<div>Blog</div>
 	</a>
-	<a href="/contact"
-		><img src="./images/contact.svg" alt="Contato" />
+	<a href="/contact" class:active={path === '/contact'}>
+		<img src="$lib/images/MenuBar/contact.svg" alt="Contato" />
 		<div>Contato</div>
 	</a>
-	<a href="/about"
-		><img src="./images/profile.svg" alt="Sobre" />
+	<a href="/about" class:active={path === '/about'}>
+		<img src="$lib/images/MenuBar/profile.svg" alt="Sobre" />
 		<div>Sobre</div>
 	</a>
 </nav>
@@ -56,7 +59,7 @@
 			align-items: center;
 			cursor: pointer;
 
-			.active {
+			&.active {
 				box-shadow: inset 8px 0 0px var(--neutral-white);
 			}
 
@@ -84,14 +87,38 @@
 		}
 
 		@media (max-width: 600px) {
-			width: 100%;
+			width: 100% !important;
 			height: min-content;
+			max-height: 500px;
 			position: relative;
+			flex-direction: row;
+			justify-content: space-evenly;
+			padding-bottom: 30px;
+
+			a {
+				display: flex;
+				flex-direction: column;
+				padding: 8px;
+				width: 20%;
+
+				&.active {
+					box-shadow: none;
+					box-shadow: inset 0 4px 0px var(--neutral-white);
+				}
+			}
+
+			&.collapsed {
+				max-height: 32px;
+				a {
+					visibility: hidden;
+					opacity: 0;
+				}
+			}
 		}
 	}
 
 	.MenuBar__button {
-		content: url('images/left-arrow.svg');
+		content: url('$lib/images/MenuBar/left-arrow.svg');
 		padding: 10px;
 		border-radius: 50%;
 		background-color: var(--neutral-80);
@@ -101,12 +128,27 @@
 		cursor: pointer;
 		transition: transform 1s ease-in-out;
 
-		&.rotated {
+		&.collapsed {
 			transform: rotate(540deg);
 		}
 
 		&:hover {
 			background-color: var(--neutral-50);
+		}
+
+		@media (max-width: 600px) {
+			transform: rotate(90deg);
+			padding: 10px;
+			border-radius: 50%;
+			background-color: var(--neutral-80);
+			position: absolute;
+			top: calc(100% - 22px);
+			right: calc(50% - 22px);
+			cursor: pointer;
+
+			&.collapsed {
+				transform: rotate(-90deg);
+			}
 		}
 	}
 </style>

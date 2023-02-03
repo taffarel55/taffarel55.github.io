@@ -5,6 +5,7 @@
 	import '$lib/styles/prism-vsc-dark-plus.css';
 	import '$lib/styles/style.scss';
 	import { fade } from 'svelte/transition';
+
 	export let data;
 
 	let collapsed = false;
@@ -55,8 +56,8 @@
 		}
 
 		@media (max-width: 600px) {
-			margin-left: 0;
-			width: 100%;
+			margin-left: 0 !important;
+			width: 100% !important;
 		}
 	}
 </style>
