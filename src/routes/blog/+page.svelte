@@ -2,9 +2,11 @@
 	export let data;
 </script>
 
-<h1>Blog</h1>
+<h1>Blog 📚</h1>
 
-<p>My blog posts will go here eventually…</p>
+<p>Meus posts aparecerão aqui em breve, por enquanto esses são para teste:</p>
+
+<br />
 
 <ul>
 	{#each data.posts as post}
@@ -14,7 +16,10 @@
 					{post.meta.title}
 				</a>
 			</h2>
-			Published {post.meta.date}
+			Publicado em {post.meta.date}
 		</li>
 	{/each}
 </ul>
+
+<br />
+<h2>🚧 Fazendo...</h2>

@@ -6,12 +6,14 @@
 	import '$lib/styles/style.scss';
 	import { fade } from 'svelte/transition';
 	export let data;
+
+	let collapsed = false;
 </script>
 
 <div class="App">
-	<MenuBar />
+	<MenuBar bind:collapsed />
 
-	<main class={`Page`}>
+	<main class={`Page ${collapsed ? 'collapsed' : ''}`}>
 		<Header />
 		{#key data.currentRoute}
 			<div class="content" in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
@@ -25,7 +27,7 @@
 <style lang="scss">
 	// TODO: Remover isso
 	.content {
-		padding: 20px;
+		padding: 3rem 5rem;
 	}
 
 	.App {
@@ -38,14 +40,19 @@
 	}
 
 	.Page {
-		width: calc(100% - 72px);
+		width: calc(100% - 240px);
 		height: 100vh;
-		margin-left: 72px;
+		margin-left: 240px;
 		background: var(--neutral-90);
 		transition: all 1s ease-in-out;
 		display: flex;
 		flex-direction: column;
 		align-items: stretch;
+
+		&.collapsed {
+			width: calc(100% - 72px);
+			margin-left: 72px;
+		}
 
 		@media (max-width: 600px) {
 			margin-left: 0;

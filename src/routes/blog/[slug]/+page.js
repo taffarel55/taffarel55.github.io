@@ -1,6 +1,8 @@
+const language = 'pt-br';
+
 export async function load({ params }) {
 	try {
-		const post = await import(`../${params.slug}.md`);
+		const post = await import(`../posts/${params.slug}/${language}.md`);
 		const { title, date } = post.metadata;
 		const content = post.default;
 

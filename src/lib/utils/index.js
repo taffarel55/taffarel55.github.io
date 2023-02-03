@@ -1,17 +1,17 @@
 export const fetchMarkdownPosts = async () => {
-	const allPostFiles = import.meta.glob('/src/routes/blog/*.md');
+	const allPostFiles = import.meta.glob('/src/routes/blog/posts/*/*.md');
 	const iterablePostFiles = Object.entries(allPostFiles);
 
 	const allPosts = await Promise.all(
 		iterablePostFiles.map(async ([path, resolver]) => {
 			const { metadata } = await resolver();
 
-            // To remove `/src/routes` and `.md`
-			const postPath = path.slice(11, -3); 
+			// Get the post name
+			const postName = path.split('/')[5];
 
 			return {
 				meta: metadata,
-				path: postPath
+				path: '/blog/' + postName
 			};
 		})
 	);

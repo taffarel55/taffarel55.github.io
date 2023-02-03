@@ -1,6 +1,6 @@
 <header>
-	<a href="/">Home</a>
-	Header
+	<a href="/">Título da página</a>
+	Este será o cabeçalho
 </header>
 
 <style>
