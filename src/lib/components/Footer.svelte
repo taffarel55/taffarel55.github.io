@@ -3,10 +3,7 @@
 <style>
 	footer {
 		padding: 1rem;
-		background: lightskyblue;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
+		background: var(--neutral-80);
+		margin-top: auto;
 	}
 </style>

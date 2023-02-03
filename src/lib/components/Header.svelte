@@ -1,35 +1,17 @@
 <header>
 	<a href="/">Home</a>
-
-	<nav>
-		<ul>
-			<li>
-				<a href="/blog">Blog</a>
-			</li>
-			<li>
-				<a href="/about">About</a>
-			</li>
-			<li>
-				<a href="/contact">Contact</a>
-			</li>
-		</ul>
-	</nav>
+	Header
 </header>
 
 <style>
 	header {
 		padding: 1rem;
-		background: lightskyblue;
+		background-color: var(--neutral-90);
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
-	}
 
-	ul {
-		margin: 0;
-		list-style-type: none;
-		display: flex;
-		gap: 1rem;
+		box-shadow: 0 4px 4px rgba(0, 0, 0, 0.16);
 	}
 
 	a {

@@ -2,11 +2,7 @@
 	export let data;
 </script>
 
-<h1>Blog</h1>
-
-<p>My blog posts will go here eventually…</p>
-
-<ul>
+{#if data.posts.length}
 	{#each data.posts as post}
 		<li>
 			<h2>
@@ -15,6 +11,9 @@
 				</a>
 			</h2>
 			Published {post.meta.date}
+			Categories {post.meta.categories}
 		</li>
 	{/each}
-</ul>
+{:else}
+	404 - Não tem posts com essa categoria
+{/if}
