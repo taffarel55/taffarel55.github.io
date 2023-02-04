@@ -1,6 +1,6 @@
 <svelte:head>
 	<title>My Personal Webpage</title>
-	<meta property="og:title" content={'BLOGZAO'} />
+	<meta property="og:title" content={'Título do Site'} />
 </svelte:head>
 
 <h1>Bem vindo 😄</h1>

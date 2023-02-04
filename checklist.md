@@ -17,3 +17,7 @@ Another possible future enhancement would be adding the post’s content to the 
 ## Adicionar o # nos ids que nem isso:
 
 https://bjornlu.com/projects/svelte-preprocess-import-assets
+
+## Footer também
+
+https://bjornlu.com/projects/svelte-preprocess-import-assets#what-is-it

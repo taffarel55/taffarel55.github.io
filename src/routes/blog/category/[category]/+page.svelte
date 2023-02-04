@@ -2,7 +2,7 @@
 	export let data;
 </script>
 
-{#if data.posts.length}
+{#if data.posts?.length}
 	{#each data.posts as post}
 		<li>
 			<h2>
