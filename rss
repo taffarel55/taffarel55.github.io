@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Your site title here</title>
+<description>Your site description here</description>
+<link>https://taffarel55.github.io</link>
+<atom:link href="https://taffarel55.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+<item>
+<guid isPermaLink="true">https://taffarel55.github.io/blog//blog/conways-game-of-life</guid>
+<title>Jogo da vida</title>
+<link>https://taffarel55.github.io/blog//blog/conways-game-of-life</link>
+<description>Jogo da vida</description>
+<pubDate>Thu, 23 May 2019 00:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https://taffarel55.github.io/blog//blog/headings</guid>
+<title>Testando Headings</title>
+<link>https://taffarel55.github.io/blog//blog/headings</link>
+<description>Testando Headings</description>
+<pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https://taffarel55.github.io/blog//blog/markdown-basics</guid>
+<title>Markdown</title>
+<link>https://taffarel55.github.io/blog//blog/markdown-basics</link>
+<description>Markdown</description>
+<pubDate>Tue, 14 Dec 2021 00:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https://taffarel55.github.io/blog//blog/perceptron</guid>
+<title>Perceptron</title>
+<link>https://taffarel55.github.io/blog//blog/perceptron</link>
+<description>Perceptron</description>
+<pubDate>Thu, 23 May 2019 00:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https://taffarel55.github.io/blog//blog/summary-discrete-systems</guid>
+<title>Resumo Sinais II</title>
+<link>https://taffarel55.github.io/blog//blog/summary-discrete-systems</link>
+<description>Resumo Sinais II</description>
+<pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https://taffarel55.github.io/blog//blog/testing-headings-codes</guid>
+<title>Testando itens...</title>
+<link>https://taffarel55.github.io/blog//blog/testing-headings-codes</link>
+<description>Testando itens...</description>
+<pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
