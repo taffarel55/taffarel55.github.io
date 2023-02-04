@@ -1,7 +1,7 @@
 <script>
 	export let collapsed;
 	const changeCollapsed = () => (collapsed = !collapsed);
-	
+
 	import { page } from '$app/stores';
 	let path;
 	$: path = '/' + $page.url.pathname.split('/')[1];

@@ -4,7 +4,6 @@ import { mdsvex } from 'mdsvex';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeKatexSvelte from 'rehype-katex-svelte';
 import rehypeSlug from 'rehype-slug';
-import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import sveltePreprocess from 'svelte-preprocess';
 import importAssets from 'svelte-preprocess-import-assets';
@@ -12,7 +11,15 @@ import importAssets from 'svelte-preprocess-import-assets';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		prerender: {
+			entries: [
+				'/blog/category/computacao',
+				'/blog/category/matematica',
+				'/blog/category/desafios',
+				'/rss'
+			]
+		}
 	},
 	extensions: ['.svelte', '.md'],
 	preprocess: [
@@ -34,7 +41,7 @@ const config = {
 					}
 				}
 			],
-			remarkPlugins: [remarkMath, remarkGfm]
+			remarkPlugins: [remarkMath]
 		}),
 		importAssets()
 	]

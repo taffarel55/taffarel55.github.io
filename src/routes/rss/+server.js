@@ -1,3 +1,5 @@
+export const prerender = true;
+
 import { fetchMarkdownPosts } from '$lib/utils';
 
 const siteURL = 'https://taffarel55.github.io';
