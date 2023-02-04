@@ -24,6 +24,8 @@ https://bjornlu.com/projects/svelte-preprocess-import-assets#what-is-it
 
 ### Ao selecionar um trecho do blog, colocar um balão em cima pra compartilhamento
 
+### Highlight em trechos de código
+
 ### API pagination options
 
 Our API is currently missing pagination options, which could be very needed depending on the number of posts.

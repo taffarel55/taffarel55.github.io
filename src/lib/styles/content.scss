@@ -45,13 +45,9 @@
 
 				text-decoration: none;
 
-				left: -1ch;
+				left: -1.1ch;
 				line-height: 1;
 				bottom: 0;
-
-				@media (max-width: 600px) {
-					content: '';
-				}
 			}
 		}
 

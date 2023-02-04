@@ -197,7 +197,7 @@ Um resultado para a execução do código anterior é:
 
 </center>
 
-Seguindo o algoritmo da [figura 4](#Figura-4-Algoritmo-de-treinamento-do-Perceptron), inicia-se o vetor pesos sinápticos, define-se a taxa de aprendizagem e a acurácia de parada.
+Seguindo o algoritmo da figura 4, inicia-se o vetor pesos sinápticos, define-se a taxa de aprendizagem e a acurácia de parada.
 
 ```python=19
 w0 = 0.1          # Limiar de ativação
@@ -210,7 +210,7 @@ ac = 0.93         # Acurácia para parar
 temErro = F       # Flag para imprimir respostas
 ```
 
-Ainda de acordo com o algoritmo da [figura 4](#Figura-4-Algoritmo-de-treinamento-do-Perceptron), realiza-se o treinamento com a contagem das épocas e duas condições para paradas: 1) Obter uma acurácia igual ou superior da desejada; 2) Limite de épocas alcançado.
+Ainda de acordo com o algoritmo da 4, realiza-se o treinamento com a contagem das épocas e duas condições para paradas: 1) Obter uma acurácia igual ou superior da desejada; 2) Limite de épocas alcançado.
 
 ```python
 for (i in 1:M){

@@ -4,8 +4,6 @@ const siteURL = 'https://taffarel55.github.io';
 const siteTitle = 'Your site title here';
 const siteDescription = 'Your site description here';
 
-export const prerender = true;
-
 export const GET = async () => {
 	const allPosts = await fetchMarkdownPosts();
 	const sortedPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));

@@ -9,6 +9,8 @@
 
 	export let data;
 
+	let title;
+
 	let collapsed = false;
 </script>
 
@@ -16,7 +18,7 @@
 	<MenuBar bind:collapsed />
 
 	<main class={`Page ${collapsed ? 'collapsed' : ''}`}>
-		<Header />
+		<Header bind:title />
 		{#key data.currentRoute}
 			<div class="content" in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
 				<slot />
@@ -32,7 +34,7 @@
 		padding: 3rem 5rem;
 
 		@media (max-width: 600px) {
-			padding: 2rem;
+			padding: 4.2rem;
 		}
 	}
 
