@@ -10,6 +10,7 @@ import importAssets from 'svelte-preprocess-import-assets';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+	base: "/my-app/",
 	kit: {
 		adapter: adapter(),
 		prerender: {

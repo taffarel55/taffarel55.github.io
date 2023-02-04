@@ -1,7 +1,6 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 
 const config = {
-	base: '/my-app/',
 	plugins: [sveltekit()],
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
