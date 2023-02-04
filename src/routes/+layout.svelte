@@ -2,6 +2,7 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
 	import MenuBar from '$lib/components/MenuBar.svelte';
+	import '$lib/styles/content.scss';
 	import '$lib/styles/prism-vsc-dark-plus.css';
 	import '$lib/styles/style.scss';
 	import { fade } from 'svelte/transition';
@@ -29,6 +30,10 @@
 	// TODO: Remover isso
 	.content {
 		padding: 3rem 5rem;
+
+		@media (max-width: 600px) {
+			padding: 2rem;
+		}
 	}
 
 	.App {
@@ -42,7 +47,7 @@
 
 	.Page {
 		width: calc(100% - 240px);
-		height: 100vh;
+		height: max-content;
 		margin-left: 240px;
 		background: var(--neutral-90);
 		transition: all 1s ease-in-out;

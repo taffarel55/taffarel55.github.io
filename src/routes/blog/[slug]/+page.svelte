@@ -11,7 +11,7 @@
 {#if content}
 	<article>
 		<h1>{title}</h1>
-		<p>Published: {date}</p>
+		<p>Publicado em: {date}</p>
 		<svelte:component this={content} />
 	</article>
 {:else}
