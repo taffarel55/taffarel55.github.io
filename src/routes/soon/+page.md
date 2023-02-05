@@ -1,0 +1,81 @@
+---
+title: Demandas restantes
+date: 2023-02-05
+---
+
+## Obrigatórias versão v1.0.0 🚧
+
+- [ ] Adicionar componentes Svelte no markdown
+- [ ] Adicionar mais recursos legais ao markdown
+  - [ ] Fazer componentes para notas de info, tip, danger e colocar no markdown
+  - [ ] Adicionar suporte a diagramas de eletrônica
+  - [ ] Desmos
+  - [ ] Youtube
+  - [ ] Circuitos eletrônicos - Circuitverse
+  - [ ] Circuitos analógicos - Falstad
+  - [ ] Mermaid.js
+  - [ ] Lib para gráfico?
+- [ ] Sistema de referências
+- [ ] Estilizar componentes
+  - [ ] Tabela
+  - [ ] inline code block
+- [ ] Resolver os problemas com overflow de conteúdo
+- [ ] Adicionar título da página ao header
+- [ ] Páginas 404, 500 e +error.svelte - https://kit.svelte.dev/docs/routing#error
+- [ ] Adicionar svelte:head em todo as páginas
+- [ ] Adicionar # nos ids assim: https://bjornlu.com/projects/svelte-preprocess-import-assets
+- [ ] Fazer o footer com links das redes sociais: https://bjornlu.com/projects/svelte-preprocess-import-assets
+- [ ] Olhar Trello com sites de inspiração e tools que estão salvas
+- [ ] Ajustar cores do site, dar um pouco mais de vida
+- [ ] Fazer um overlay com spinner enquanto espera o css da página
+- [ ] Adicionar funcionalidade de editar páginas no GitHub
+- [ ] Botão de ir pra cima
+- [ ] Fazer o scroll mais bonitinho
+- [ ] Fazer um smooth qnd clicar num link com #
+- [ ] Recurso de newsletter?
+- [ ] Arrumar o rss
+- [ ] Adicionar comentários usando utterances
+- [ ] Adicionar ads? É possível?
+- [ ] Instaview do Telegram
+- [ ] Modo leitura firefox
+- [ ] Modo impressão/geração de PDF
+- [ ] Barra de progresso de leitura
+- [ ] Estimativa de leitura a partir da quantidade de caracteres, remover atributo `time` (https://dev.to/michaelburrows/calculate-the-estimated-reading-time-of-an-article-using-javascript-2k9l)
+- [ ] Botões de compartilhamento dos posts
+- [ ] Definir padrão de yaml nos posts, documentar e adicionar validação aos testes
+- [ ] Fazer botão para voltar baseado no histórico do navegador
+- [ ] Imagem background de um post
+- [ ] Escrever testes unitários e integrados
+- [ ] Adicionar funcionalidade de se mudar o idioma do site a partir do Header
+- [ ] Limpeza nas rebarbas e excessos de código
+- [ ] Limpeza do repositório, libs, audit fix, dev órfãos
+- [ ] Criar página de Blog
+  - [ ] Criar componente card
+    - [ ] Consumir API do github para pegar imagem pelo ID
+  - [ ] Criar layout da página (Destaque, Recentes, Categorias)
+- [ ] Criar página de Projetos
+  - [ ] Criar componente card project (Status, Financiar (kofi), Repositório...)
+  - [ ] Criar layout da página (Destaque, Recentes, Categorias)
+  - [ ] Adicionar funcionalidade de abrir um issue
+  - [ ] Atender os seguintes itens:
+    - Projetos feitos
+    - Projetos em andamento com seus respectivos repositórios
+    - O que falta pra terminar e como precisarei de ajuda
+    - Posts relacionados a este projeto
+    - Comentários
+- [ ] Criar página de Contato
+  - [ ] Pensar na estrutura da página
+- [ ] Criar página de Sobre
+  - [ ] Consumir API externa para fazer um fetch nos meus dados
+- [ ] Criar págia de Início
+- [ ] Fazer acessibilidade do site enquanto estudo sobre isso, pedir ajuda a alguém
+
+## Futuro
+
+- [ ] Recurso para copiar conteúdo de códigos
+- [ ] Tema claro?
+- [ ] Ao copiar um trecho que não seja código, colocar link para post
+- [ ] Ao selecionar um trecho do blog, colocar um balão em cima pra compartilhamento
+- [ ] Highlight em trechos de código
+- [ ] API pagination options (Our API is currently missing pagination options, which could be very needed depending on the number of posts.)
+- [ ] API Post (Another possible future enhancement would be adding the post’s content to the returned JSON, which we don’t do currently. The “resolver” function offers a `default.render` method for that, if you so choose. (We saw it previously, in the `src/routes/[slug]/+page.js` file.))
