@@ -281,10 +281,10 @@ Um possível resultado obtido é:
 
 </center>
 
-[^idc]: 10 PREVISÕES DE TIC PARA 2021, 2021, Online. Evento [...]. [S. l.: s. n.], 2021. Disponível em: http://www.idclatin.com/2021/events/02_04_br/na.html. Acesso em: 6 set. 2021.
+[^idc]: 10 PREVISÕES DE TIC PARA 2021, 2021, Online. Evento [...]. [S. l.: s. n.], 2021. Disponível em: https://www.idclatin.com/2021/events/02_04_br/na.html. Acesso em: 6 set. 2021.
 [^imgneuronio]: Disponível em: "<https://www.sobiologia.com.br/conteudos/FisiologiaAnimal/nervoso2.php>". Acesso em 8 set. 2021.
 [^livrobio]: David E. Sadava, David M. Hillis, H. Craig Heller, and May Berenbaum, "How Do Neurons Communicate with Other Cells?" em Life: The Science of Biology, 9th ed. (Sunderland: Sinauer Associates, 2009), 961.
-[^sinapsesbio]: Alberto E. Pereda, "Electrical Synapses and Their Functional Interactions with Chemical Synapses," Nature Reviews Neuroscience 15 (2014): 250-263, http://dx.doi.org/10.1038/nrn3708.
+[^sinapsesbio]: Alberto E. Pereda, "Electrical Synapses and Their Functional Interactions with Chemical Synapses," Nature Reviews Neuroscience 15 (2014): 250-263, https://dx.doi.org/10.1038/nrn3708.
 [^historiaia]: Jürgen Schmidhuber, Deep learning in neural networks: An overview, Neural Networks, Volume 61, 2015, Pages 85-117, ISSN 0893-6080, https://doi.org/10.1016/j.neunet.2014.09.003.
 [^imgneuronioartificial]: Disponível em: "<https://commons.wikimedia.org/wiki/File:ArtificialNeuronModel.png>". Acesso em 8 set. 2021.
 [^perceptronrosenblatt]: Rosenblatt, F. (1958). The perceptron: A probabilistic model for information storage and organization in the brain. Psychological Review, 65(6), 386–408. https://doi.org/10.1037/h0042519

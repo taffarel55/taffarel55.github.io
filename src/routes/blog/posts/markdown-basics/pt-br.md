@@ -37,10 +37,10 @@ Markdown is the most popular markup language that can be used to format document
 5. Images
    Images can be used just like links. ![Alt txt](img url)
 
-   ![cat Img](http://placekitten.com/200/200)
+   ![cat Img](https://placekitten.com/200/200)
 
    Thumbnails images can also be used which links to larger image
-   [<img src="http://placekitten.com/20/20" alt="Thumb">](http://placekitten.com/200/200)
+   [<img src="https://placekitten.com/20/20" alt="Thumb">](https://placekitten.com/200/200)
 
 6. Ordered and Unordered Lists
 
