@@ -19,7 +19,8 @@ const config = {
 				'/blog/category/matematica',
 				'/blog/category/desafios',
 				'/soon',
-				'/rss'
+				'/rss',
+				'/privacy'
 			]
 		}
 	},
