@@ -3,8 +3,8 @@
 </script>
 
 <header>
-	<a href="/">{title}</a>
-	A B C
+	<div>{title}</div>
+	<div>A B C</div>
 </header>
 
 <style lang="scss">
@@ -20,10 +20,5 @@
 		@media (max-width: 600px) {
 			padding: 5vw;
 		}
-	}
-
-	a {
-		text-decoration: none;
-		color: inherit;
 	}
 </style>
