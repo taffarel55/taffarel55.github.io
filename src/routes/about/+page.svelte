@@ -12,7 +12,7 @@
 	<meta name="twitter:title" content={title} />
 	<meta property="og:description" content={description} />
 	<meta property="og:locale" content="pt_BR" />
-	<meta property="og:url" content={window.location.origin} />
+	<meta property="og:url" content={import.meta.env.VITE_CLIENT_URL} />
 	<meta property="og:type" content="website" />
 	<!-- article -->
 </svelte:head>
