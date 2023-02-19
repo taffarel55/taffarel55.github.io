@@ -1,5 +1,9 @@
+<script>
+	export let title;
+</script>
+
 <header>
-	<a href="/">Título da página</a>
+	<a href="/">{title}</a>
 	Este será o cabeçalho
 </header>
 

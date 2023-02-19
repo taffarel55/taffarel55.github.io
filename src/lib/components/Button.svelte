@@ -1,4 +1,4 @@
-<svelte:options tag="button-component" />
+<!-- <svelte:options tag="button-component" /> -->
 
 <script>
 	export let type = 'solid';

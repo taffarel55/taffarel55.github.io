@@ -2,7 +2,7 @@ export const prerender = true;
 
 import { fetchMarkdownPosts } from '$lib/utils';
 
-const siteURL = 'https://taffarel55.github.io';
+const siteURL = 'https://taffarel.tech';
 const siteTitle = 'Your site title here';
 const siteDescription = 'Your site description here';
 
@@ -31,10 +31,10 @@ const render = (posts) => `<?xml version="1.0" encoding="UTF-8" ?>
 ${posts
 	.map(
 		(post) => `<item>
-<guid isPermaLink="true">${siteURL}/blog/${post.path}</guid>
+<guid isPermaLink="true">${siteURL}${post.path}</guid>
 <title>${post.meta.title}</title>
-<link>${siteURL}/blog/${post.path}</link>
-<description>${post.meta.title}</description>
+<link>${siteURL}${post.path}</link>
+<description>${post.meta.description}</description>
 <pubDate>${new Date(post.meta.date).toUTCString()}</pubDate>
 </item>`
 	)

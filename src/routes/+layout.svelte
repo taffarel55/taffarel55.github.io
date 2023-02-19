@@ -1,15 +1,19 @@
 <script>
-	import Footer from '$lib/components/Footer.svelte';
-	import Header from '$lib/components/Header.svelte';
-	import MenuBar from '$lib/components/MenuBar.svelte';
+	import Footer from '$lib/partials/Footer.svelte';
+	import Header from '$lib/partials/Header.svelte';
+	import MenuBar from '$lib/partials/MenuBar.svelte';
 	import '$lib/styles/content.scss';
 	import '$lib/styles/prism-vsc-dark-plus.css';
 	import '$lib/styles/style.scss';
 	import { fade } from 'svelte/transition';
 
-	export let data;
-
+	import { pageData } from '$lib/stores/pageData.js';
 	let title;
+	pageData.subscribe((value) => {
+		title = value.title;
+	});
+
+	export let data;
 
 	let collapsed = false;
 </script>

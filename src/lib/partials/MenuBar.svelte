@@ -93,7 +93,7 @@
 			position: relative;
 			flex-direction: row;
 			justify-content: space-evenly;
-			padding-bottom: 30px;
+			padding-bottom: 40px;
 
 			a {
 				display: flex;

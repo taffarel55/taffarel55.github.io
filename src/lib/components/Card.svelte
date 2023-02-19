@@ -1,5 +1,4 @@
-<svelte:options tag="card-component" />
-
+<!-- <svelte:options tag="card-component" /> -->
 <script>
 	export let card_title, card_desc, card_img;
 </script>

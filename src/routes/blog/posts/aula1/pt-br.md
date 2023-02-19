@@ -189,7 +189,9 @@ CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS       
 
 ![Imagem do ngnix funcionando](./assets/2023-01-25-21-17-22.png)
 
-## `docker container run -dp 5432:5432 -e POSTGRES_PASSWORD=Pg@123 -e POSTGRES_USER=kubenews -e POSTGRES_DB=kubenews postgres`
+## Configurando postgres
+
+`docker container run -dp 5432:5432 -e POSTGRES_PASSWORD=Pg@123 -e POSTGRES_USER=kubenews -e POSTGRES_DB=kubenews postgres`
 
 > Cria um container com variáveis de ambiente, neste exemplo é uma aplicação de um banco de dados.
 

@@ -1,10 +1,13 @@
 <script>
 	export let data;
 	const { title, date, content } = data;
+
+	import { pageData } from '$lib/stores/pageData.js';
+	$: pageData.update(() => data);
 </script>
 
 <svelte:head>
-	<title>My blog - {title}</title>
+	<title>{title} - Meu blog</title>
 	<meta property="og:title" content={title} />
 </svelte:head>
 

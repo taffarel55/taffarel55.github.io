@@ -12,7 +12,7 @@ author:
   user: taffarel55
 ---
 
-<script>
+<!-- <script>
    import Card from "$lib/components/Card.svelte";
    import Button from "$lib/components/Button.svelte";
 </script>
@@ -23,7 +23,7 @@ author:
    card_img="https://unsplash.it/300/300"
 />
 
-<Button type="outline">Click me</Button>
+<Button type="outline">Click me</Button> -->
 
 # Basics of Markdown
 
@@ -50,7 +50,7 @@ Markdown is the most popular markup language that can be used to format document
 5. Images
    Images can be used just like links. ![Alt txt](img url)
 
-   ![cat Img](https://placekitten.com/200/200)
+   ![cat Img](https://placekitten.com/300/200)
 
    Thumbnails images can also be used which links to larger image
    [<img src="https://placekitten.com/20/20" alt="Thumb">](https://placekitten.com/200/200)
@@ -94,14 +94,25 @@ Markdown is the most popular markup language that can be used to format document
 
 8. Tables
 
-Tables can be generated with headings and text alignment option
+   Tables can be generated with headings and text alignment option
 
-|  Stocks  | Price | Other |
-| :------: | ----: | :---: |
-|   TCS    |   230 |  20   |
-| YES Bank |   500 |  20   |
-| YES Bank |   500 |  20   |
-| YES Bank |   500 |  20   |
+   |  Stocks  | Price | Other |
+   | :------: | ----: | :---: |
+   |   TCS    |   230 |  20   |
+   | YES Bank |   500 |  20   |
+   | YES Bank |   500 |  20   |
+   | YES Bank |   500 |  20   |
+
+9. Inline code blocks
+
+   `Testando`
+
+10. Comments
+
+   > Testando `testando` asdasd não sei oq
+   > Não sei oq mais lá
+   >
+   > asdasd
 
 Cool Tips
 

@@ -16,14 +16,14 @@ date: 2023-02-05
   - [ ] Mermaid.js
   - [ ] Lib para gráfico?
 - [ ] Sistema de referências
-- [ ] Estilizar componentes
+- [x] Estilizar componentes
   - [x] Tabela
-  - [ ] inline code block
-- [ ] Resolver os problemas com overflow de conteúdo
+  - [x] inline code block
+- [x] Resolver os problemas com overflow de conteúdo
 - [ ] Adicionar título da página ao header
 - [ ] Páginas 404, 500 e +error.svelte - https://kit.svelte.dev/docs/routing#error
 - [ ] Adicionar svelte:head em todo as páginas
-- [ ] Adicionar # nos ids assim: https://bjornlu.com/projects/svelte-preprocess-import-assets
+- [x] Adicionar # nos ids assim: https://bjornlu.com/projects/svelte-preprocess-import-assets
 - [ ] Fazer o footer com links das redes sociais: https://bjornlu.com/projects/svelte-preprocess-import-assets
 - [ ] Olhar Trello com sites de inspiração e tools que estão salvas
 - [ ] Ajustar cores do site, dar um pouco mais de vida
@@ -31,9 +31,9 @@ date: 2023-02-05
 - [ ] Adicionar funcionalidade de editar páginas no GitHub
 - [ ] Botão de ir pra cima
 - [ ] Fazer o scroll mais bonitinho
-- [ ] Fazer um smooth qnd clicar num link com #
+- [x] Fazer um smooth qnd clicar num link com #
 - [ ] Recurso de newsletter?
-- [ ] Arrumar o rss
+- [x] Arrumar o rss
 - [ ] Adicionar comentários usando utterances
 - [ ] Adicionar ads? É possível?
 - [ ] Instaview do Telegram

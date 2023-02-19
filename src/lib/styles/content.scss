@@ -4,20 +4,23 @@
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
+	color: var(--neutral-05);
 
 	p {
 		line-height: 2rem;
 		margin-bottom: 2rem;
-		color: var(--neutral-05);
 	}
 
 	a {
-		color: var(--neutral-05);
 		text-decoration: underline !important;
 
 		&:hover {
 			color: var(--neutral-20);
 		}
+	}
+
+	:where(ol, ul) {
+		margin-bottom: 16px;
 	}
 
 	img {
@@ -33,7 +36,7 @@
 	:where(h1, h2, h3, h4, h5, h6) {
 		margin-bottom: 2rem;
 		line-height: 1;
-		overflow: hidden;
+		white-space: wrap;
 
 		.icon-link {
 			position: relative;
@@ -58,12 +61,23 @@
 	}
 
 	blockquote {
-		background: var(--neutral-80);
-		border-left: 0.5rem solid var(--neutral-50);
+		background: var(--background-lightdark);
+		border-left: 0.5rem solid var(--primary-color);
 		border-radius: 0.5rem;
 		margin-bottom: 2rem;
 		padding: 0.5em 1rem;
 		padding-top: 20px;
+
+		code {
+			background: var(--background-dark);
+			padding: 0.1em;
+		}
+	}
+
+	code {
+		border-radius: 0.5rem;
+		background: var(--background-lightdark);
+		padding: 0.3em;
 	}
 
 	:where(ul, ol) {
@@ -75,7 +89,6 @@
 		font-weight: normal;
 		font-size: 1.4rem;
 		line-height: 2rem;
-		color: var(--neutral-05);
 
 		&::marker {
 			font-size: 1.6rem;
@@ -87,12 +100,20 @@
 		margin-bottom: 2rem;
 	}
 
+	// code {
+	// 	background: var(--neutral-80);
+	// 	border-left: 0.5rem solid var(--neutral-50);
+	// 	border-radius: 0.5rem;
+	// 	margin-bottom: 2rem;
+	// 	padding: 0.5em 1rem;
+	// 	padding-top: 20px;
+	// }
+
 	pre {
 		font-style: normal;
 		font-weight: normal;
 		font-size: 1.4rem;
 		line-height: 2rem;
-		color: var(--neutral-05);
 		background-color: var(--background-darkest) !important;
 		padding: 3rem 2rem !important;
 		margin-bottom: 2rem !important;
@@ -100,6 +121,9 @@
 		border-radius: 1rem;
 
 		code {
+			border-radius: 0;
+			padding: 0;
+			background: inherit;
 			overflow-x: scroll;
 			&::before {
 				content: '';
@@ -135,7 +159,6 @@
 
 	.katex {
 		font-size: 1.6rem;
-		color: var(--neutral-05);
 	}
 
 	.katex-display {
@@ -162,11 +185,9 @@
 		font-weight: normal;
 		font-size: 1.4rem;
 		line-height: 2rem;
-		color: var(--neutral-05);
 		border-collapse: separate;
 		width: 100%;
 		margin-bottom: 2rem;
-		color: white;
 
 		td,
 		th {
