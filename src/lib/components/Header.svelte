@@ -6,7 +6,7 @@
 <style>
 	header {
 		padding: 1rem;
-		background-color: var(--neutral-90);
+		background-color: var(--background-dark);
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;

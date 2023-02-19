@@ -12,6 +12,19 @@ author:
   user: taffarel55
 ---
 
+<script>
+   import Card from "$lib/components/Card.svelte";
+   import Button from "$lib/components/Button.svelte";
+</script>
+
+<Card
+   card_title="My Card Title"
+   card_desc="Lorem ipsum dolor…"
+   card_img="https://unsplash.it/300/300"
+/>
+
+<Button type="outline">Click me</Button>
+
 # Basics of Markdown
 
 Markdown is the most popular markup language that can be used to format documents. It can be used to create _websites_,_ebooks_,_email_,_chats in discussions forums_.
@@ -83,10 +96,12 @@ Markdown is the most popular markup language that can be used to format document
 
 Tables can be generated with headings and text alignment option
 
-|  Stocks  | Price |
-| :------: | ----: |
-|   TCS    |   230 |
-| YES Bank |   500 |
+|  Stocks  | Price | Other |
+| :------: | ----: | :---: |
+|   TCS    |   230 |  20   |
+| YES Bank |   500 |  20   |
+| YES Bank |   500 |  20   |
+| YES Bank |   500 |  20   |
 
 Cool Tips
 

@@ -14,7 +14,7 @@
 
 html {
 	font-size: 62.5%;
-	background-color: var(--neutral-90);
+	background-color: var(--background-dark);
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
 		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -22,7 +22,7 @@ html {
 }
 
 body {
-	background: var(--neutral-90);
+	background: var(--background-dark);
 	color: white;
 	font-family: sans-serif;
 }
@@ -108,4 +108,8 @@ p a {
 	--colorful-red: #f83636;
 	--colorful-green: #1ab060;
 	--colorful-yellow: #ffbd2e;
+
+	--background-lightdark: #29292e;
+	--background-dark: #1d1e20;
+	--background-darkest: #151517;
 }

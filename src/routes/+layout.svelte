@@ -51,7 +51,7 @@
 		width: calc(100% - 240px);
 		height: max-content;
 		margin-left: 240px;
-		background: var(--neutral-90);
+		background: var(--background-dark);
 		transition: all 1s ease-in-out;
 		display: flex;
 		flex-direction: column;

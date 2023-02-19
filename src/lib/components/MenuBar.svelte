@@ -41,7 +41,7 @@
 		width: 240px;
 		display: flex;
 		flex-direction: column;
-		background-color: var(--neutral-100);
+		background-color: var(--background-darkest);
 		color: var(--neutral-white);
 		position: fixed;
 		height: 100vh;
@@ -121,7 +121,7 @@
 		content: url('$lib/images/MenuBar/left-arrow.svg');
 		padding: 10px;
 		border-radius: 50%;
-		background-color: var(--neutral-80);
+		background-color: var(--background-lightdark);
 		position: absolute;
 		top: 50%;
 		right: -22px;
@@ -140,7 +140,6 @@
 			transform: rotate(90deg);
 			padding: 10px;
 			border-radius: 50%;
-			background-color: var(--neutral-80);
 			position: absolute;
 			top: calc(100% - 22px);
 			right: calc(50% - 22px);

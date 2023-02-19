@@ -17,7 +17,7 @@ date: 2023-02-05
   - [ ] Lib para gráfico?
 - [ ] Sistema de referências
 - [ ] Estilizar componentes
-  - [ ] Tabela
+  - [x] Tabela
   - [ ] inline code block
 - [ ] Resolver os problemas com overflow de conteúdo
 - [ ] Adicionar título da página ao header

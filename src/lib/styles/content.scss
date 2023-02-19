@@ -93,7 +93,7 @@
 		font-size: 1.4rem;
 		line-height: 2rem;
 		color: var(--neutral-05);
-		background-color: var(--neutral-100) !important;
+		background-color: var(--background-darkest) !important;
 		padding: 3rem 2rem !important;
 		margin-bottom: 2rem !important;
 		position: relative;
@@ -163,29 +163,53 @@
 		font-size: 1.4rem;
 		line-height: 2rem;
 		color: var(--neutral-05);
-		border-collapse: collapse;
+		border-collapse: separate;
 		width: 100%;
 		margin-bottom: 2rem;
-	}
+		color: white;
 
-	table {
 		td,
 		th {
-			border: 1px solid var(--neutral-20);
 			padding: 8px;
 		}
 
-		th {
-			padding-top: 12px;
-			padding-bottom: 12px;
-			background-color: var(--neutral-100);
-			color: white;
+		thead {
+			th {
+				background-color: var(--background-darkest);
+			}
+
+			tr {
+				background: var(--background-dark);
+
+				&:first-child {
+					th:first-child {
+						border-top-left-radius: 10px;
+					}
+					th:last-child {
+						border-top-right-radius: 10px;
+					}
+				}
+			}
 		}
 
-		tr:nth-child(even) {
-			background-color: var(--neutral-80);
-			&:hover {
-				background-color: var(--neutral-90);
+		tbody {
+			td {
+				background-color: var(--background-lightdark);
+			}
+
+			tr {
+				&:last-child {
+					background: var(--background-dark);
+				}
+
+				&:last-child {
+					td:first-child {
+						border-bottom-left-radius: 10px;
+					}
+					td:last-child {
+						border-bottom-right-radius: 10px;
+					}
+				}
 			}
 		}
 	}
