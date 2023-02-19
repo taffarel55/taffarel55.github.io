@@ -1,3 +1,0 @@
-# Meus projetos 🧰
-
-## 🚧 Fazendo...

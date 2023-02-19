@@ -8,6 +8,7 @@
 	import { fade } from 'svelte/transition';
 
 	import { pageData } from '$lib/stores/pageData.js';
+
 	let title;
 	pageData.subscribe((value) => {
 		title = value.title;
@@ -38,7 +39,7 @@
 		padding: 3rem 5rem;
 
 		@media (max-width: 600px) {
-			padding: 4.2rem;
+			padding: 5vw;
 		}
 	}
 

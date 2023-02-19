@@ -1,6 +1,6 @@
 <script>
 	export let data;
-	const { title, date, description, content } = data;
+	const { title, date, content } = data;
 
 	import { pageData } from '$lib/stores/pageData.js';
 	$: pageData.update(() => data);
@@ -9,12 +9,6 @@
 <svelte:head>
 	<title>{title}</title>
 	<meta property="og:title" content={title} />
-	<meta name="twitter:title" content={title} />
-	<meta property="og:description" content={description} />
-	<meta property="og:locale" content="pt_BR" />
-	<meta property="og:url" content={window.location.origin} />
-	<meta property="og:type" content="website" />
-	<!-- article -->
 </svelte:head>
 
 {#if content}

@@ -20,11 +20,13 @@ date: 2023-02-05
   - [x] Tabela
   - [x] inline code block
 - [x] Resolver os problemas com overflow de conteúdo
-- [ ] Adicionar título da página ao header
+- [x] Adicionar título da página ao header
 - [ ] Páginas 404, 500 e +error.svelte - https://kit.svelte.dev/docs/routing#error
+- [ ] Adicionar imagens nos posts
 - [ ] Adicionar svelte:head em todo as páginas
 - [x] Adicionar # nos ids assim: https://bjornlu.com/projects/svelte-preprocess-import-assets
 - [ ] Fazer o footer com links das redes sociais: https://bjornlu.com/projects/svelte-preprocess-import-assets
+- [ ] Criar card para posts
 - [ ] Olhar Trello com sites de inspiração e tools que estão salvas
 - [ ] Ajustar cores do site, dar um pouco mais de vida
 - [ ] Fazer um overlay com spinner enquanto espera o css da página
