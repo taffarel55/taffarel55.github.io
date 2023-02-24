@@ -20,7 +20,8 @@ const config = {
 				'/blog/category/desafios',
 				'/soon',
 				'/rss',
-				'/privacy'
+				'/privacy',
+				'/zohoverify/verifyforzoho.html'
 			]
 		}
 	},
