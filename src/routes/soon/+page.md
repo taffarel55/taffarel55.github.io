@@ -23,6 +23,8 @@ date: 2023-02-05
 - [x] Adicionar título da página ao header
 - [x] Páginas 404, 500 e +error.svelte - https://kit.svelte.dev/docs/routing#error
 - [ ] Adicionar imagens nos posts
+- [ ] Adicionar barra de leitura
+- [ ] Adicionar smooth no link
 - [ ] Adicionar svelte:head em todo as páginas
 - [x] Adicionar # nos ids assim: https://bjornlu.com/projects/svelte-preprocess-import-assets
 - [ ] share buttons

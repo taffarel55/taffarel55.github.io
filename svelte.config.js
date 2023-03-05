@@ -21,7 +21,7 @@ const config = {
 				'/soon',
 				'/rss',
 				'/privacy',
-				'/zohoverify/verifyforzoho.html'
+				'/img'
 			]
 		}
 	},
