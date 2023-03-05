@@ -21,7 +21,16 @@ const config = {
 				'/soon',
 				'/rss',
 				'/privacy',
-				'/img'
+				'/img/signature/CTA.png', // Remove
+				'/img/signature/email.png',
+				'/img/signature/facebook.png',
+				'/img/signature/github.png',
+				'/img/signature/instagram.png',
+				'/img/signature/leaf.png',
+				'/img/signature/linkedin.png',
+				'/img/signature/tel.png',
+				'/img/signature/telegram.png',
+				'/img/signature/world.png'
 			]
 		}
 	},
