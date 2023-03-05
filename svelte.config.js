@@ -21,7 +21,8 @@ const config = {
 				'/soon',
 				'/rss',
 				'/privacy',
-				'/img/signature/CTA.png', // Remove
+				'/signature.html',
+				'/img/signature/CTA.png', // Remover
 				'/img/signature/email.png',
 				'/img/signature/facebook.png',
 				'/img/signature/github.png',
